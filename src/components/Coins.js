@@ -101,7 +101,7 @@ const Coins = () => {
               </button>
             );
           })} */}
-          {coins.length == 100 ? (
+          {coins.length === 100 ? (
             ""
           ) : (
             <button
