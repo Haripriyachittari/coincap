@@ -22,7 +22,8 @@ const Coins = () => {
       .then((resJson) => {
         console.log(resJson.data);
         setCoins(resJson.data);
-      });
+      })
+      .catch((error) => console.log(error));
   };
   return (
     <>
