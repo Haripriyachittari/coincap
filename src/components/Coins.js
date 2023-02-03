@@ -101,16 +101,13 @@ const Coins = () => {
               </button>
             );
           })} */}
-          {coins.length === 100 ? (
-            ""
-          ) : (
-            <button
-              className="border-2   p-2 mx-2 w-[200px] rounded bg-blue-700 text-white font-bold hover:text-blue-700 hover:border-blue-600 hover:bg-white"
-              onClick={() => setPageHandler()}
-            >
-              LOAD MORE
-            </button>
-          )}
+
+          <button
+            className="border-2   p-2 mx-2 w-[200px] rounded bg-blue-700 text-white font-bold hover:text-blue-700 hover:border-blue-600 hover:bg-white"
+            onClick={() => setPageHandler()}
+          >
+            LOAD MORE
+          </button>
         </div>
       </div>
     </>
